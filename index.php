@@ -160,7 +160,7 @@
           }
           elseif($page == "product_management")
           {
-              include_once("Product_management.php");
+              include_once("Product_Management.php");
           }
           elseif($page == "add_category")
           {
