@@ -17,6 +17,7 @@
                 return false;
             }            
         }
+        </script>
         <?php
             include_once("connection.php");
             if(isset($_GET["function"])=="del")
@@ -35,7 +36,7 @@
             }
             
         ?>
-    </script>
+  
         <form name="frm" method="post" action="">
         <h1 style="text-align: center;">Product Management</h1>
         <p>
@@ -65,6 +66,10 @@
                 $result = mysqli_query($conn, "SELECT Product_ID, Product_Name, Price, Pro_qty, Pro_image, Cat_Name
                 FROM product a, category b
                 WHERE a.Cat_ID = b.Cat_ID ORDER BY ProDate DESC");
+                $res = mysqli_fetch_object($result);
+
+                $count = $res->mycount;
+                echo $count;
 
             while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
             ?>
