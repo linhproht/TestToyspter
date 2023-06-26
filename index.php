@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The D-LIL Shop - Shopping at home </title>
+    <title>ATNStore</title>
     
     <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,700,600' rel='stylesheet' type='text/css'>
@@ -70,7 +70,7 @@
 				<div>
 					<div class="col-sm-6" >
 						<div class="logo pull-left" >
-                            <a href="index.php" style="color:#FFF">D-LIL Shop
+                            <a href="index.php" style="color:#FFF">ATNStore
                             <img src="images/logodlil.jpg" width="70" height="70"></a>
 						</div>
 					</div>
@@ -79,9 +79,6 @@
 							<ul class="nav navbar-nav" style="margin: 15px;" >
                                 <li><a href="#" style="background-color:#2D3544;color:#FFF">
                                 <i class="fa fa-user"></i> Account</a></li>
-                                <li><a href="?page=cart" style="background-color:#2D3544;color:#FFF">
-                                <i class="fa fa-shopping-cart"></i> Cart</a></li> 
-                                
                                 <?php
                                     if(isset($_SESSION['us']) && $_SESSION['us'] !="")
                                     {
@@ -132,7 +129,6 @@
 										<li><a href="?page=product_management">Product</a></li>
                                     </ul>
                                 </li> 
-								<li><a href="?page=cart">Cart</a></li>                                
 							</ul>
 						</div>
 					</div>					
@@ -203,8 +199,8 @@
             <div class="row">
                 <div class="col-md-3 col-sm-6">
                     <div class="footer-about-us">
-                        <h2>D-<span>LIL</span></h2>
-                        <p>D-LIL Shop have everything you want. Just stay at home and online. You can buy everything by on click and product will diliveried to you</p>
+                        <h2>ATN<span>Store</span></h2>
+                        <p>ATNStore is a world of figure, the core of toy is figure which we sell</p>
                         <div class="footer-social">
                             <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
                             <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
@@ -223,7 +219,7 @@
             <div class="row">
                 <div class="col-md-8">
                     <div class="copyright">
-                        <p>&copy; 2022 D-LIL online Shopping</p>
+                        <p>&copy; ATNStore 2023</p>
                     </div>
                 </div>
             </div>
